@@ -1,6 +1,10 @@
 <h3>Crew</h3>
-<ul>
+<!-- <ul>
     <li> {{crew[0]}} </li>
     <li> {{crew[1]}} </li>
     <li> {{crew[2]}} </li>
+</ul> -->
+
+<ul>
+    <li *ngFor="let element of crew">{{element}}</li>
 </ul>
